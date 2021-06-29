@@ -1,0 +1,10 @@
+class try1 {
+  public static void main(String[ ] args) {
+    int []a = {5,6,7,8};
+    try {
+      System.out.println(a[10]);
+    } catch (Exception e) {
+      System.out.println("Array index value doesn't exit");
+    }
+  }
+}
